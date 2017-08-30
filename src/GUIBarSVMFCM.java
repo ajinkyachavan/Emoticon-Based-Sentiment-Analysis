@@ -39,7 +39,7 @@ public class GUIBarSVMFCM extends JFrame {
 				//JDialog d= new JDialog(f, "woah "+n, true);
 				
 				try {
-					Desktop.getDesktop().open(new File("/home/tuss/workspace/EmoticonFuzzyCMeans/svm/barplot_plotSVMFCMBar_.pdf"));
+					Desktop.getDesktop().open(new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/svm/barplot_plotSVMFCMBar_.pdf"));
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();

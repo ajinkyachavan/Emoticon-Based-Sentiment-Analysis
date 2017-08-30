@@ -42,7 +42,8 @@ static	JFrame f = new JFrame();
 				//JDialog d= new JDialog(f, "woah "+n, true);
 				
 				try {
-					Desktop.getDesktop().open(new File("/home/tuss/workspace/EmoticonFuzzyCMeans/"+s1));
+					//"/home/tuss/workspace/EmoticonFuzzyCMeans/"+s1
+					Desktop.getDesktop().open(new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/"+s1));
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();

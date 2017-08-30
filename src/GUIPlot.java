@@ -38,7 +38,7 @@ btn.addActionListener(new ActionListener() {
 				//JDialog d= new JDialog(f, "woah "+n, true);
 				
 				try {
-					Desktop.getDesktop().open(new File("/home/tuss/workspace/EmoticonFuzzyCMeans/svm/barplot_accuracy_.pdf"));
+					Desktop.getDesktop().open(new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/svm/barplot_accuracy_.pdf"));
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();

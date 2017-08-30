@@ -8,7 +8,7 @@ public class LoggerSVMFCMBar {
 	public LoggerSVMFCMBar(){
 	
 		
-		File f = new File("/home/tuss/workspace/EmoticonFuzzyCMeans/plotSVMFCMBar");
+		File f = new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/plotSVMFCMBar");
 		
 		try{
 		f.createNewFile();

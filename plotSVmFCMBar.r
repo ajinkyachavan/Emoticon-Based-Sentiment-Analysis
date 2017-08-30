@@ -4,6 +4,23 @@ args <- commandArgs(trailingOnly = TRUE)
 
 
 
+value <- args[1]
+
+
+print(value)
+
+
+
+setwd("/home/tuss/workspace/EmoticonFuzzyCMeans/")
+
+
+
+#print(paste(c( value," value"), collapse = "_"))
+#print(paste(c(m," number"), collapse = "_"))
+
+
+
+
 plotData <- function(value){
 
   
@@ -41,8 +58,6 @@ d1 <- as.matrix(d)
 #names <- 
 
 #d <- c(8,1)
-
-
 
 barplot(d1[,1], main="SVM+FCM", ylab="Count", col=rainbow(2), names.arg = c("True Positives" ,"False Positives"))
 

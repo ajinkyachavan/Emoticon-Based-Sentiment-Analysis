@@ -8,7 +8,7 @@ public class LoggerSVMBar {
 	public LoggerSVMBar(){
 	
 		
-		File f = new File("/home/tuss/workspace/EmoticonFuzzyCMeans/plotSVMBar");
+		File f = new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/plotSVMBar");
 		
 		try{
 		f.createNewFile();

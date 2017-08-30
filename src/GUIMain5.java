@@ -40,7 +40,7 @@ public class GUIMain5 extends JFrame {
 					//JDialog d= new JDialog(f, "woah "+n, true);
 					
 					try {
-						Desktop.getDesktop().open(new File("/home/tuss/workspace/EmoticonFuzzyCMeans/emotions/sorrow"));
+						Desktop.getDesktop().open(new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/emotions/sorrow"));
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
@@ -61,7 +61,7 @@ public class GUIMain5 extends JFrame {
 					//JDialog d= new JDialog(f, "woah "+n, true);
 					
 					try {
-						Desktop.getDesktop().open(new File("/home/tuss/workspace/EmoticonFuzzyCMeans/emotions/angry"));
+						Desktop.getDesktop().open(new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/emotions/angry"));
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
@@ -81,7 +81,7 @@ public class GUIMain5 extends JFrame {
 					//JDialog d= new JDialog(f, "woah "+n, true);
 					
 					try {
-						Desktop.getDesktop().open(new File("/home/tuss/workspace/EmoticonFuzzyCMeans/emotions/anxious"));
+						Desktop.getDesktop().open(new File("/home/"+System.getProperty("user.name")+"/workspace/EmoticonFuzzyCMeans/emotions/anxious"));
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
